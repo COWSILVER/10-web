@@ -47,15 +47,13 @@ nav ul{
 section{
     width: 1000px;
     height: 400px;
-    background-color:blanchedalmond;
-    margin: auto;
+    background-color:#ffffff
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
    
 }
 
-article{
-    font-size: 20px;
-    margin: 300 200 0 0;
-    background-color: aqua;
 }
 body{
    background-color: white;
@@ -82,7 +80,8 @@ dummy{
     width: 20px;
     height: 100px;
     background-color:white;
-    margin: 200 20 300 30;
+    margin:100px
+    
 }
 
 .x-large{
@@ -93,7 +92,7 @@ dummy{
 }
 
 footer{ 
-    width:90%; 
+    width:1000px; 
     margin-right: auto; 
     margin-left: auto; 
     padding:10px; 
@@ -115,3 +114,9 @@ footer{
     border-image-repeat: space;
 }
 
+center{
+    background-color: white;
+    width: 1000px;
+    vertical-align: center;
+    margin-left: 100px;
+}
