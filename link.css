@@ -1,3 +1,4 @@
+
 @font-face {
     font-family:Jalnan;
     src: url('Jalnan.ttf');
@@ -5,31 +6,140 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family:Cafe24Ohsquare;
+    src: url('font/Cafe24Ohsquare.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: crimson;
+}
+
+a:hover{
+    color: aqua;
+}
+
+hl{
+    color:crimson;
+}
+
+a:target{
+    background-color: crimson;
+    color: aqua;
+    
+}
+nav ul{
+    list-style-type: none;
+    width:1000px;
+     text-decoration: none;
+     text-align: center;
+    margin:auto;
+    background-color: #ffffff;
+    
+}
+
+section{ 
+    width: 1000px;
+    height: auto;
+    background-color:#ffffff
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+   
+}
+
+}
 body{
-    background-color:;
+   background-color: white;
+    width: 70%;
+    margin-right: auto; 
+    border-top:none;
+    margin-left: auto; 
+    padding: 10px;
+    font-size: medium;
+} 
+
+h1{
+    margin-bottom: 10px;
+    padding: 10px 0 0 10px;
+    background-color: white;
+}
+body{
+    background-color:saddlebrown;
     font-size: 40px;
     font-style: normal;
     font-family: Jalnan;
-    }
-
-.original{
-    width: 400px;
-    height: 300px;
-    margin: 10px;
-    padding: 10px;
-    border: 3px solid #111111;
+    margin: 300 500 20 300;
 }
 
-.new{
-    width: 400px;
-    height: 300px;
-    margin: 10px;
-    padding: 10px;
+dummy{
+    width: 200px;
+    height: 100px;
+    margin: 200px 0 0 30px;
+}
+
+footer{ 
+    width:1000px; 
+    margin-right: auto; 
+    margin-left: auto; 
+    padding:10px 0 10px; 
+    background-color:sandybrown;
+    color:white; 
+    text-align:center;
+    font-size: 15px;
+    font-family: sans-serif;}
+
+
+.img_border{
+    width: 1000px;
+    height: 700px;
+    margin: 0;
+    border: 0.1px solid;
+    border-image-source: url(%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C-1.jpg);
+    border-image-slice:500;
+    border-image-width:400px;
+    border-image-repeat: space;
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    height: auto;
+    vertical-align: center;
+    align-self: center;
     
 }
+
 
 table1{
-    width: auto;
-    border: 1px solid;
-    
+    width: 400px;
+    margin: auto;
+    align-content:center;
+    font-size:10px;
+}
+
+table2{
+    width: 400px;
+    margin: auto;
+    align-content:center;
+    font-size:10px;
+}
+
+td{
+border:none;
+padding:20px;
+}
+
+tr{
 }

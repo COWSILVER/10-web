@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family:Jalnan;
     src: url('Jalnan.ttf');
@@ -16,6 +15,7 @@
 a{
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 a:link{
     color: black;
@@ -29,13 +29,17 @@ a:hover{
     color: aqua;
 }
 
+
+}
+
 a:target{
     background-color: crimson;
     color: aqua;
+    
 }
 nav ul{
     list-style-type: none;
-    width:1100px;
+    width:900px;
      text-decoration: none;
      text-align: center;
     margin:auto;
@@ -43,15 +47,26 @@ nav ul{
     
 }
 
-section{
+section{ 
     width: 1000px;
-    height: 400px;
+    height: auto;
     background-color:#ffffff
     text-align: center;
     padding: 20px;
     font-size: 30px;
    
 }
+
+}
+body{
+   background-color: white;
+    width: 70%;
+    margin-right: auto; 
+    border-top:none;
+    margin-left: auto; 
+    padding: 10px;
+    font-size: medium;
+} 
 
 h1{
     background-color: white;
@@ -62,15 +77,6 @@ body{
     font-style: normal;
     font-family: Jalnan;
     margin: 300 500 20 300;
-}
-nav ul{
-    list-style-type: none;
-    width:960px;
-     text-decoration: none;
-     text-align: center;
-    margin:auto;
-    background-color: #ffffff;
-    
 }
 
 dummy{
@@ -85,7 +91,6 @@ footer{
     width:1000px; 
     margin-right: auto; 
     margin-left: auto; 
-    margin-top: 20px;
     padding:10px 0 10px; 
     background-color:sandybrown;
     color:white; 
@@ -109,13 +114,32 @@ main{
     background-color: white;
     width: 1000px;
     margin: auto;
-    padding: 10px 0 10px 0;
+    height: auto;
     vertical-align: center;
     align-self: center;
     
 }
 
+
+table1{
+    width: 400px;
+    margin: auto;
+    align-content:center;
+    font-size:10px;
+}
+
 td{
 border:none;
-padding:10px;
+padding:20px;
+}
+
+tr{
+}
+table1-2{
+    width: 800px;
+    height:auto;
+   font-size:10px;
+    border: 1px solid;
+    padding: 30px;
+    margin: auto;
 }
